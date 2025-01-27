@@ -26,6 +26,7 @@ vim.opt.rtp:prepend(lazypath)
 require('lazy').setup {
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
   require 'plugins.alpha',
+  require 'plugins.wakatime',
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
 
   { -- Adds git related signs to the gutter, as well as utilities for managing changes
